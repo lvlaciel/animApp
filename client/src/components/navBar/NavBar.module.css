@@ -1,12 +1,16 @@
 .containerNav{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-self: center;
     align-items: center;
+    position:fixed;
+    z-index: 40;
     height: 10vh;
     width: 105.4%;
     background-color: #041723;
     color:aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    text-shadow: 4px 4px 4px rgb(84, 83, 83)
 }
 
 @media screen and (max-width: 800px) {

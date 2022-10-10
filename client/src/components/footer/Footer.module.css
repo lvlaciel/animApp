@@ -1,0 +1,18 @@
+.containerFooter{
+    display: flex;
+    justify-content:space-around;
+    align-self: center;
+    align-items: center;
+    
+    height: 10vh;
+    width: 105.4%;
+    background-color: #041723;
+    color:aliceblue;
+}
+
+@media screen and (max-width: 800px) {
+    .containerFooter {
+        display: flex;
+        justify-content: space-around;
+    }
+}
