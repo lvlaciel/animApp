@@ -1,12 +1,14 @@
-import React from 'react'
-import "../home/Home.css"
+import React from "react";
+import style from "../home/Home.module.css";
+import NavBar from "../../components/navBar/NavBar.jsx"
 
 function Home() {
   return (
-    <div className='ContainerHome'>
-      <h1>HOME</h1>
-    </div>
-  )
+    <>
+      <NavBar />
+      <div className={style.containerHome}></div>
+    </>
+  );
 }
 
-export default Home
+export default Home;

@@ -1,0 +1,14 @@
+
+.containerHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2F4F4F;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 105.4%;
+}
