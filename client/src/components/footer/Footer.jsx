@@ -10,13 +10,22 @@ function Footer() {
     <div className={style.containerFooter}>
       <img src={logo} alt="logo" width="66px" height="65px" />
       <div>
-        <FiGithub size={40} />
+        <a target="_blank" href="https://github.com/lvlaciel">
+          <FiGithub size={40} />
+        </a>
       </div>
       <div>
-        <FaLinkedinIn size={40} />
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/facundo-maciel-desarrollador-fullstack/"
+        >
+          <FaLinkedinIn size={40} />
+        </a>
       </div>
       <div>
-      <img src={logoHenry} alt="logo" width="80px" height="62px" />
+      <a target="_blank" href="https://www.soyhenry.com/estudiar-programacion">
+        <img src={logoHenry} alt="logo" width="80px" height="62px" />
+        </a>
       </div>
     </div>
   );

@@ -1,0 +1,23 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    background-color: #A9A9A9;
+    width: 100%;    
+}
+.container text {
+    font-size: xx-large;
+}
+.destacados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A9A9A9;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.container img {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+}

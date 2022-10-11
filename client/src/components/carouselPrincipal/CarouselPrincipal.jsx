@@ -6,16 +6,18 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import Anime from "../anime/Anime.jsx";
-import style from "../carouselSports/Carousel.module.css"
+import style from "../carouselPrincipal/CarouselPrincipal.module.css"
 
-function CarouselSports() {
+const dataFilter = data.filter(anime => !anime.destacado )
+
+function CarouselPrincipal() {
   return (
     <div className={style.carousel}>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         pagination={{ clickable: true }}
         navigation={true}
-        spaceBetween={2}
+        spaceBetween={0}
         autoplay={{
             delay: 3000,
             disableOnInteraction: false,
@@ -23,16 +25,10 @@ function CarouselSports() {
         loop={true}
         modules={[Autoplay, Pagination, Navigation]}
       >
-        {data.length !== 0
-          ? data.map((anime, i) => (
+        {dataFilter.length !== 0
+          ? dataFilter.map((anime, i) => (
               <SwiperSlide key={i}>
                 <Anime
-                  name={anime.name}
-                  //   description={anime.description}
-                  Rating={anime.Rating}
-                  episode={anime.episode}
-                  categorie={anime.categorie}
-                  studio={anime.studio}
                   img={anime.img}
                 />
               </SwiperSlide>
@@ -43,4 +39,4 @@ function CarouselSports() {
   );
 }
 
-export default CarouselSports;
+export default CarouselPrincipal;

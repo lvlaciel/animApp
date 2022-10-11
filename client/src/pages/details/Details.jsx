@@ -1,8 +1,12 @@
 import React from 'react'
+import AnimeDetails from './AnimeDetails'
+
 
 function Details() {
   return (
-    <div>Details</div>
+    <div>
+      <AnimeDetails/>
+    </div>
   )
 }
 

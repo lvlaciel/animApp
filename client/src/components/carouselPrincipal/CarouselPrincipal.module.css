@@ -3,9 +3,9 @@
     justify-content: center;
     align-items: center;
     padding-top: 50px;
-    width: 100%;
+    width: 100%;   
 }
 .carousel img {
-    width: 200px;
+    width: 800px;
     border-radius: 30px;
 }
