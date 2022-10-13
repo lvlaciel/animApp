@@ -11,7 +11,7 @@ function Footer() {
       <img src={logo} alt="logo" width="66px" height="65px" />
       <div>
         <a target="_blank" href="https://github.com/lvlaciel">
-          <FiGithub size={40} />
+          <FiGithub size={40} color="white"/>
         </a>
       </div>
       <div>
@@ -19,7 +19,7 @@ function Footer() {
           target="_blank"
           href="https://www.linkedin.com/in/facundo-maciel-desarrollador-fullstack/"
         >
-          <FaLinkedinIn size={40} />
+          <FaLinkedinIn size={40} color="white"/>
         </a>
       </div>
       <div>

@@ -1,11 +1,16 @@
 import React from "react";
+import { useDispatch } from "react-redux"
 import data from "../../data/info.js";
 import AnimeDestacado from "./AnimeDestacado.jsx";
 import style from "./Destacados.module.css"
 
 const dataFilter = data.filter(anime => anime.destacado )
 
+
 function CarouselSports() {
+
+  const dispatch = useDispatch()
+
   return (
     <div className={style.container}><h1>Recomendaciones</h1>
     <div className={style.destacados}>

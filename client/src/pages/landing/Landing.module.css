@@ -18,27 +18,30 @@
 
 .containerBtn {
   display: inline-block;
-  background-color: #041413;
+  font: bold;
 }
 
 .btntwo {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: x-large;
+  font-size: xx-large;
+  font-weight: bold;
   line-height: 50px;
   height: 50px;
   text-align: center;
   width: 250px;
   cursor: pointer;
-  color: #FFF;
+  color: rgb(0, 0, 0);
   transition: all 0.3s;
   position: relative;
+  margin-top: -10px;
 }
 
 .btntwo span {
   transition: all 0.3s;
   text-shadow: #fff;
+  font: bold;
 }
 
 .btntwo::before {
